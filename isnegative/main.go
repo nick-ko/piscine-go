@@ -1,14 +1,12 @@
 package main
 
-import "fmt"
+import piscine '..'
 
+func main(){
+                 
+      piscine.IsNegative(1)
+      piscine.IsNegative(0)
+      piscine.IsNegative(-1)
 
-func IsNegative (nb int) {
-	if nb >=0 {
-	  fmt.Println("F")
-	} else {
-		fmt.Println("T")
-	}
+       }
 
-	
-}
